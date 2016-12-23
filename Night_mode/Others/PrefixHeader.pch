@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  Night_mode
+//
+//  Created by 俊洋洋 on 16/12/23.
+//  Copyright © 2016年 俊洋洋. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <UIKit/UIKit.h>
+
+#import "LYManager.h"
+#import "StateManager.h"
+
+#define NOTIFICATION      [NSNotificationCenter defaultCenter]
+#define DEFAULTS          [NSUserDefaults standardUserDefaults]
+
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+
+
+#define Day_mode    @"day_mode"
+#define Night_mode  @"night_mode"
+
+
+#define kLabelNightColor [UIColor whiteColor]
+#define kLabelLightColor [UIColor blackColor]
+
+#define kBackgroundViewNightColor [UIColor blackColor]
+#define kBackgroundViewLightColor [UIColor whiteColor]
+
+
+#define kButtonTitleNightColor [UIColor whiteColor]
+#define kButtonTitleLightColor [UIColor blackColor]
+#endif /* PrefixHeader_pch */
